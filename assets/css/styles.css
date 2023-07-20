@@ -247,7 +247,7 @@ body.dark-theme {
   column-gap: 0.5rem;
   background-color: var(--first-color);
   color: #fff;
-  padding: 0.75rem;
+  padding: 0.65rem;
   border-radius: 0.5rem;
   transition: 0.3s;
   box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), 0.25);
@@ -400,6 +400,28 @@ body.dark-theme {
 .filter-tab-active {
   background-color: var(--body-color);
 }
+
+/*=============== ABOUT ===============*/
+.about__content {
+  margin: 2rem 0 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.about__area {
+  width: 360px;
+}
+.about__area h3 {
+  display: flex;
+  font-size: var(--h3-font-size);
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.about__area p {
+  font-size: var(--small-font-size);
+  display: flex;
+  text-align: center;
+  position: relative;
+}
 /*=============== FOOTER ===============*/
 .footer__copy {
   display: block;
@@ -462,6 +484,10 @@ body.dark-theme {
   .skills__content {
     justify-content: center;
     column-gap: 3rem;
+  }
+  .about__content {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
